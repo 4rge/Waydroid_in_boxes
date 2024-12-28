@@ -3,7 +3,7 @@ A readme on how to setup an arch linux vm to run a waydroid instance
 (This readme uses the Aurora Store in place of google play store and services. For details on how to set up waydroid GAPPS see the bottom of the readme FIRST before starting the install, the INIT process is different.)
 
 <h2>Setup</h2>
-First, download an iso of <a href="https://archlinux.org/download/">ArchLinux</a> and ```sudo apt install gnome-boxes || sudo pacman -S gnome-boxes```
+First, download an iso of [ArchLinux](href="https://archlinux.org/download/) and ```sudo apt install gnome-boxes || sudo pacman -S gnome-boxes```
 Open Gnome Boxes and click the "+" in the top left, then select "Install from file."
 Select the ArchLinux.iso you just downloaded and give it 4GB ram and 20GB disk space then boot.
 
