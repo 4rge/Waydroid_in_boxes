@@ -19,7 +19,7 @@ Set "Network configuration" to "Copy ISO network configuration to installation."
 Set the Timezone and hit install.</br>
 
 <h2>Configure</h2>
-Once the installation is complete being by entering <code><pre>su arch</code></pre> to become the user you created.</br>
+Once the installation is complete run <code><pre>su arch</code></pre> to become the user you created.</br>
 Next update and install the basic packages to build our toolchain with <code><pre>sudo pacman -Syyu --needed base-devel git --noconfirm</code></pre></br>
 Then <code><pre>cd ~/</code></pre> to change to Arch's home directory</br>
 Now we can clone the package from the aur using git by running the command</br> 
