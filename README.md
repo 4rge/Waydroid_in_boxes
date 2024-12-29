@@ -56,7 +56,8 @@ You can make a snapshot of the vm in it's inital state under the snapshot tab, j
 You can also clone this vm in the Boxes menu by right clicking on the vm and selecting clone.</br>
 
 NOTE: If you are using GAPPS just remember google tracks the machine id, which will be identical if you clone the vm. If you want to run multiple GAPPS vm's you need to manually install them or create a snapshot prior the waydroid init sequence, this way when you init each vm's image they dont end up with the same device id.</br>
-
+</br>
+</hr>
 <h3>GAAPS</h3>
 During the Init process, step 2 change<code><pre>sudo waydroid --init</code></pre> to <code><pre>sudo waydroid --init -S GAPPS</code></pre>
 During the last command of the Init process after selecting "Android 11" also select "microg" and when prompted pick "UNLP". This will install a trimmed verson of googles play store.</br>
